@@ -129,3 +129,21 @@ section {
         font-size: 14px;  /* Pienennä tekstin fonttikokoa mobiililaitteilla */
     }
 }
+services{
+  margin-bottom: 30px;  /* Lisää väliä kappaleiden väliin */
+  padding: 20px;  /* Lisää sisäistä tilaa tekstin ympärille */
+  background-color: #ffffff;  /* Taustaväri */
+}
+
+/* Työnäytteiden otsikoiden ulkoasu */
+.services h2 {
+  font-size: 24px;
+  color: #FF26B9;
+  margin-bottom: 10px;  /* Väli otsikon ja tekstin väliin */
+}
+
+/* Kappaleiden tekstin ulkoasu */
+.services p {
+  font-size: 16px;
+  color: #FF26B9;
+}
