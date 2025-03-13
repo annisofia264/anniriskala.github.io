@@ -1,0 +1,116 @@
+/* Yleiset tyylit */
+body {
+    font-family: 'Roboto', sans-serif;
+    color:#FF26B9 ;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff ;
+    font-size: 16px ;
+}
+
+/* Header ja navigointi */
+header {
+    background-color: #ffffff;
+    color: #FF26B9;
+    padding: 10px 0;
+}
+
+/* Navigointivalikon tyylit */
+nav {
+    position: fixed; /* Kiinnittää valikon paikkaan */
+    top: 0; /* Kiinnittää valikon ylös */
+    right: 0; /* Kiinnittää valikon oikealle */
+    background-color: #333 
+
+}
+
+/* Navigointivalikon lista */
+/* Perusasetukset ja resetointi */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Kiinnitetään navigointivalikko oikeaan yläkulmaan */
+  nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #f0f0f0; /* Vaalean harmaa tausta */
+    padding: 10px 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Lisää varjoa */
+    z-index: 1000; /* Varmistaa, että valikko on muiden elementtien päällä */
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row; /* Asetetaan lista vaakatasoon */
+  }
+  
+  nav ul li {
+    margin-right: 20px; /* Väli linkkien välillä */
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #FF26B9; /* Pinkki teksti */
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #e0e0e0; /* Vaalean harmaa tausta hover-tilassa */
+    border-radius: 5px; /* Pyöristetyt kulmat hover-tilassa */
+  }
+  
+nav a:hover {
+    color: #FF26B9; /* Tekstin väri muuttuu punaiseksi, kun hiiri menee linkin päälle */
+  }
+
+/* Sektion tyylit */
+section {
+    padding: 50px;
+    margin: 20px;
+    background-color: #ffffff ;
+    border-radius: 8px;
+    text-align: center ;
+}
+
+/* Portfolio-tyylit */
+.portfolio-images {
+    display: flex;             /* Asetetaan kuvat riviin (flexbox) */
+    justify-content: space-between; /* Tasaa kuvat vaakasuunnassa */
+    gap: 20px;                 /* Lisää tilaa kuviin */
+    flex-wrap: wrap;           /* Tekee niin, että kuvat menevät tarvittaessa seuraavalle riville, jos tila loppuu */
+}
+
+.portfolio-image {
+    width: 10 px ;               /* Määrittää kuvien leveydeksi 30% kontista */
+    height: 10 px ;            /* Säilyttää kuvan suhteet */
+    border-radius: 8px;        /* Pyöristää kuvien kulmat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lisää varjon kuville */
+    transition: transform 0.3s ease; /* Pehmeä animaatio kuvaan hover-tilassa */
+}
+
+.portfolio-image:hover {
+    transform: scale(1.05);    /* Kuva suurenee hieman hover-tilassa */
+}
+
+
+
+/* Instagram-linkin tyylit */
+.instagram-link {
+    display: inline-flex; /* Ikoni ja teksti rinnakkain */
+    align-items: center; /* Keskittää ikonin ja tekstin pystysuunnassa */
+    text-decoration: none; /* Poistaa linkin alaviivan */
+    color: #FF26B9; /* Instagramin tunnusväri (pinkki) */
+    font-size: 24px; /* Määrittää ikonille ja tekstille koon */
+    margin: 10px; /* Lisää tilaa ympäri */
+    
+}
+
+.instagram-link i {
+    margin-right: 8px; /* Lisää väli ikonin ja tekstin väliin */
+}
