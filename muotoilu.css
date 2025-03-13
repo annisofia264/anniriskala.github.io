@@ -114,3 +114,9 @@ section {
 .instagram-link i {
     margin-right: 8px; /* Lisää väli ikonin ja tekstin väliin */
 }
+@media (max-width: 600px) {
+  .logo {
+      max-width: 80%;  /* Pienennä logon kokoa, jotta se sopii mobiililaitteen näytölle */
+      width: auto;     /* Poistaa mahdolliset rajoitukset leveyden osalta */
+  }
+}
