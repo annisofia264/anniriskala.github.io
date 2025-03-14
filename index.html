@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="fi">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,13 +7,19 @@
     <title>Oma Nettisivu</title>
     <link rel="stylesheet" href="muotoilu.css">
 </head>
-
 <body>
 
     <!-- Navigointivalikko -->
     <header>
-        <nav>
-            <ul>
+        <nav class="navbar">
+            <!-- Hampurilaisvalikon kuvake -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-links" id="navLinks">
                 <li><a href="index.html">Etusivu</a></li>
                 <li><a href="services.html">Palvelut</a></li>
                 <li><a href="portfolio.html">Työnäytteet</a></li>
@@ -29,6 +34,7 @@
         <h1>Tarjoamme kynsipalveluita Helsingin Ullanlinnassa, tervetuloa!</h1>
     </section>
 
+    <script src="app.js"></script>
 </body>
-
 </html>
+
