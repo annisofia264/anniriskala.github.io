@@ -80,8 +80,8 @@ section {
 }
 
 .portfolio-image {
-  width: 10 px ;               /* Määrittää kuvien leveydeksi 30% kontista */
-  height: 10 px ;            /* Säilyttää kuvan suhteet */
+  width: 10px ;               /* Määrittää kuvien leveydeksi 30% kontista */
+  height: 10px ;            /* Säilyttää kuvan suhteet */
   border-radius: 8px;        /* Pyöristää kuvien kulmat */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lisää varjon kuville */
   transition: transform 0.3s ease; /* Pehmeä animaatio kuvaan hover-tilassa */
